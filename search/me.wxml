@@ -1,0 +1,13 @@
+<view class='content'>
+<view class='search'>
+  <input class='serchtxt' bindinput='inputinfo'></input>
+  <button class='searchbtn' hover-class='color' bindtap='sosuo'>搜索</button>
+  <button class='cleanbtn' hover-class='colorred' bindtap='clean'>清除</button>
+</view>
+<import src='../template/template'/>
+   <block wx:for='{{movie}}'>
+      <template is='template' data='{{item}}'></template>
+
+   </block>
+   <loading hidden="{{hiddenLoading}}">正在加载</loading>
+</view>

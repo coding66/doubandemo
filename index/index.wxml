@@ -1,0 +1,6 @@
+<view class='content'>
+ 
+   <image class='bg' src='../asset/img/db.jpg'>
+   <button class='btn' bindtap='enter' size='mini' plain='true'>开始体验</button> 
+   </image>
+</view>
